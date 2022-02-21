@@ -188,7 +188,7 @@ def win(_con, _cur, admin=False):
         [sg.Button('Должность', key='sel9_but')]
     ]
     sel10_layout = [
-        [sg.Text('Количество поступивших успоших по дням')],
+        [sg.Text('Количество поступивших усопших по дням')],
         [sg.Table(values=view_vals[9], expand_x=True, expand_y=True,
                   headings=view_columns[9], key='ltcznsq', enable_events=True)]
     ]
