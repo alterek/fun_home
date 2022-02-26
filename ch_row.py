@@ -499,7 +499,7 @@ def ch_god(r, row, ch):
     val = None
     image = None
     key = None
-    if row[3] != b'':
+    if row[3] != b'' and ch:
         image = get_img_data(r.get(row[3]))
     layout = [
         [sg.Column([
